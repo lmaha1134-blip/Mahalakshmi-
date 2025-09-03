@@ -1,0 +1,219 @@
+{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+  background-color: #f9f9f9;
+
+  color: #333;
+
+  padding-top: 60px; /* space for fixed header */
+
+}
+
+/* ===== Header & Navigation ===== */
+
+header {
+
+  background: #222;
+
+  color: #fff;
+
+  padding: 15px 20px;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+}
+
+header h1 {
+
+  margin-bottom: 10px;
+
+  font-size: 24px;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+  gap: 15px;
+
+}
+
+nav a {
+
+  text-decoration: none;
+
+  color: #fff;
+
+  font-weight: bold;
+
+  transition: color 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #ff9800;
+
+}
+
+/* ===== Sections ===== */
+
+section {
+
+  padding: 40px 20px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+}
+
+section h2 {
+
+  font-size: 28px;
+
+  margin-bottom: 15px;
+
+  border-bottom: 2px solid #ff9800;
+
+  display: inline-block;
+
+  padding-bottom: 5px;
+
+}
+
+section p {
+
+  margin-bottom: 15px;
+
+}
+
+/* ===== About Section ===== */
+
+#about img {
+
+  width: 150px;
+
+  height: 150px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  margin-top: 10px;
+
+  border: 3px solid #ff9800;
+
+}
+
+/* ===== Skills ===== */
+
+#skills ul {
+
+  list-style: square;
+
+  padding-left: 20px;
+
+}
+
+/* ===== Education ===== */
+
+#education h3 {
+
+  margin-top: 15px;
+
+  color: #444;
+
+}
+
+/* ===== Contact ===== */
+
+#contact ul {
+
+  list-style: none;
+
+  margin-bottom: 15px;
+
+}
+
+#contact li {
+
+  margin-bottom: 8px;
+
+}
+
+form input,
+
+form textarea,
+
+form button {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-top: 8px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+form button {
+
+  background: #ff9800;
+
+  color: #fff;
+
+  border: none;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+}
+
+form button:hover {
+
+  background: #e68900;
+
+}
+
+/* ===== Footer ===== */
+
+footer {
+
+  background: #222;
+
+  color: #fff;
+
+  text-align: center;
+
+  padding: 15px;
+
+  margin-top: 20px;
+
+}
